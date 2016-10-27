@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Abhishek Chopra</title>
-    <link>/tags/about/index.xml</link>
+    <link>phoenix1796.github.io/tags/about/index.xml</link>
     <description>Recent content on Abhishek Chopra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="/tags/about/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="phoenix1796.github.io/tags/about/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>About Me</title>
-      <link>/about/</link>
+      <link>/phoenix1796.github.io/about/</link>
       <pubDate>Fri, 28 Oct 2016 00:00:00 +0000</pubDate>
       
-      <guid>/about/</guid>
+      <guid>/phoenix1796.github.io/about/</guid>
       <description>&lt;p&gt;Hi ,How are you buddy ?&lt;/p&gt;
 
 &lt;p&gt;I am still working on this site so , please just hang on if you wanna see stuff about me here.&lt;/p&gt;

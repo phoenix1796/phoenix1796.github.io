@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Abhishek Chopra</title>
-    <link>/tags/hugo/index.xml</link>
+    <link>phoenix1796.github.io/tags/hugo/index.xml</link>
     <description>Recent content on Abhishek Chopra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="phoenix1796.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Credits</title>
-      <link>/credits/</link>
+      <link>/phoenix1796.github.io/credits/</link>
       <pubDate>Fri, 28 Oct 2016 00:00:00 +0000</pubDate>
       
-      <guid>/credits/</guid>
+      <guid>/phoenix1796.github.io/credits/</guid>
       <description>&lt;p&gt;This site was built upon the Geo theme by &lt;a href=&#34;https://alexurquhart.com&#34;&gt;Alex Urquhart&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;I&amp;rsquo;ve made this a bit more secure and faster as compared to Alex&amp;rsquo;s version and plan to add more features in the future.&lt;/p&gt;
@@ -22,20 +22,20 @@
     
     <item>
       <title>My First post</title>
-      <link>/post/hello-world/</link>
+      <link>/phoenix1796.github.io/post/hello-world/</link>
       <pubDate>Thu, 27 Oct 2016 00:00:00 +0000</pubDate>
       
-      <guid>/post/hello-world/</guid>
+      <guid>/phoenix1796.github.io/post/hello-world/</guid>
       <description>&lt;p&gt;Hello Blogging World , This is my first blog and I am currently working on my future blogs so stay tuned for more .&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Getting Started With hugo-geo</title>
-      <link>/tutorial/first/</link>
+      <link>/phoenix1796.github.io/tutorial/first/</link>
       <pubDate>Fri, 04 Mar 2016 00:00:00 +0000</pubDate>
       
-      <guid>/tutorial/first/</guid>
+      <guid>/phoenix1796.github.io/tutorial/first/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://www.google.com&#34;&gt;linkerlink&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://localhost:1313/post/hello-world&#34;&gt;inlink&lt;/a&gt;&lt;/p&gt;

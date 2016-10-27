@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Abhishek Chopra</title>
-    <link>/tags/blog/index.xml</link>
+    <link>phoenix1796.github.io/tags/blog/index.xml</link>
     <description>Recent content on Abhishek Chopra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="phoenix1796.github.io/tags/blog/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>My First post</title>
-      <link>/post/hello-world/</link>
+      <link>/phoenix1796.github.io/post/hello-world/</link>
       <pubDate>Thu, 27 Oct 2016 00:00:00 +0000</pubDate>
       
-      <guid>/post/hello-world/</guid>
+      <guid>/phoenix1796.github.io/post/hello-world/</guid>
       <description>&lt;p&gt;Hello Blogging World , This is my first blog and I am currently working on my future blogs so stay tuned for more .&lt;/p&gt;
 </description>
     </item>
