@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Abhishek Chopra</title>
-    <link>phoenix1796.github.io/tags/series/index.xml</link>
+    <link>/tags/series/index.xml</link>
     <description>Recent content on Abhishek Chopra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="phoenix1796.github.io/tags/series/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/series/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Getting Started With hugo-geo</title>
-      <link>/phoenix1796.github.io/tutorial/first/</link>
+      <link>/tutorial/first/</link>
       <pubDate>Fri, 04 Mar 2016 00:00:00 +0000</pubDate>
       
-      <guid>/phoenix1796.github.io/tutorial/first/</guid>
+      <guid>/tutorial/first/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://www.google.com&#34;&gt;linkerlink&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://localhost:1313/post/hello-world&#34;&gt;inlink&lt;/a&gt;&lt;/p&gt;
