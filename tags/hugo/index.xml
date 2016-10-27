@@ -9,6 +9,16 @@
     <atom:link href="phoenix1796.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>My First post</title>
+      <link>/phoenix1796.github.io/post/hello-world/</link>
+      <pubDate>Thu, 27 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/phoenix1796.github.io/post/hello-world/</guid>
+      <description>&lt;p&gt;Hello Blogging World , This is my first blog and I am currently working on my future blogs so stay tuned for more .&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Getting Started With hugo-geo</title>
       <link>/phoenix1796.github.io/tutorial/first/</link>
       <pubDate>Fri, 04 Mar 2016 00:00:00 +0000</pubDate>
