@@ -15,9 +15,9 @@
       <pubDate>Fri, 04 Mar 2016 00:00:00 +0000</pubDate>
       
       <guid>https://phoenix1796.github.io/tutorial/first/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://www.google.com&#34;&gt;linkerlink&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.google.com&#34; target=&#34;_blank&#34;&gt;linkerlink&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://localhost:1313/post/hello-world&#34;&gt;inlink&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://localhost:1313/post/hello-world&#34; target=&#34;_blank&#34;&gt;inlink&lt;/a&gt;&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;raw_input()
 for i in asd :
