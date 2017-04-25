@@ -15,6 +15,7 @@ function init(){
   anan.onclick = function(){
     fetchBody("anan").then(function(text){
       side.innerHTML = text;
+      location.hash = "sideBody"
     })
   }
 
