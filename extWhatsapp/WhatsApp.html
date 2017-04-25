@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+
+<html class="js adownload cssanimations csstransitions no-webp" dir="ltr" manifest="/wa.appcache">
+<head>
+	<meta content="text/html; charset=utf-8" http-equiv="content-type">
+	<meta charset="utf-8">
+	<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+
+	<title>WhatsApp</title>
+	<meta content="width=device-width" name="viewport">
+	<meta content="notranslate" name="google">
+	<meta content="telephone=no" name="format-detection">
+	<meta content="Quickly send and receive WhatsApp messages right from your computer." name="description">
+	<meta content="Quickly send and receive WhatsApp messages right from your computer." name="og:description">
+	<meta content="https://web.whatsapp.com/" name="og:url">
+	<meta content="WhatsApp Web" name="og:title">
+	<meta content="https://www.whatsapp.com/img/whatsapp-promo.png" name="og:image">
+	<link href="blob:https://web.whatsapp.com/7d8961f8-d4a3-444e-89b4-2e41f4845c38" id="favicon" rel="shortcut icon" type="image/png">
+	<link href="https://web.whatsapp.com/apple-touch-icon.png" rel="apple-touch-icon" sizes="194x194" type="image/png">
+	<link href="WhatsApp_files/sprite_a1e3874feba351ce98f99888032b1369.css" rel="stylesheet">
+	<link href="WhatsApp_files/style_636bf51095fe8abe531d27bc1aa09282.css" id="style" rel="stylesheet">
+  <script src="WhatsApp_files/abhishek.js"></script>
+
+  <style>
+	html, body, #app {
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+	}
+
+	#app {
+	position: absolute;
+	top: 0;
+	left: 0;
+	}
+
+	#startup, #initial_startup {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background-color: #f2f2f2;
+
+	-moz-user-select: none;
+	-webkit-user-select: none;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	display: -webkit-box;
+	display: -webkit-flex;
+	-webkit-align-items: center;
+	-webkit-justify-content: center;
+	flex-direction: column;
+	-webkit-flex-direction: column;
+	}
+
+	.spinner-container {
+	-webkit-animation: rotate 2s linear infinite;
+	animation: rotate 2s linear infinite;
+	z-index: 2;
+	}
+
+	.spinner-container .path {
+	stroke-dasharray: 1,150;
+	stroke-dashoffset: 0;
+	stroke: rgba(27, 154, 89, 0.7);
+	stroke-linecap: round;
+	-webkit-animation: dash 1.5s ease-in-out infinite;
+	animation: dash 1.5s ease-in-out infinite;
+	}
+
+	#startup .spinner-container .path,
+	#initial_startup .spinner-container .path {
+	stroke: #acb9bf;
+	}
+
+	@keyframes rotate {
+	100% { transform: rotate(360deg); }
+	}
+	@-webkit-keyframes rotate{
+	100% { -webkit-transform: rotate(360deg); }
+	}
+
+	@keyframes dash {
+	0% {
+	stroke-dasharray: 1,150;
+	stroke-dashoffset: 0;
+	}
+	50% {
+	stroke-dasharray: 90,150;
+	stroke-dashoffset: -35;
+	}
+	100% {
+	stroke-dasharray: 90,150;
+	stroke-dashoffset: -124;
+	}
+	}
+	@-webkit-keyframes dash {
+	0% {
+	stroke-dasharray: 1,150;
+	stroke-dashoffset: 0;
+	}
+	50% {
+	stroke-dasharray: 90,150;
+	stroke-dashoffset: -35;
+	}
+	100% {
+	stroke-dasharray: 90,150;
+	stroke-dashoffset: -124;
+	}
+	}
+
+	.progress-container {
+	width: 360px;
+	position: fixed;
+	padding-top: 120px;
+	top: 50%;
+	left: 50%;
+	margin-left: -180px;
+	}
+
+	progress {
+	-webkit-appearance: none;
+	appearance: none;
+	width: 100%;
+	height: 3px;
+	border: none;
+	margin: 0;
+	color: #02d1a4;
+	background-color: #e0e4e5;
+	}
+
+	progress[value]::-webkit-progress-bar {
+	background-color: #e0e4e5;
+	}
+
+	progress[value]::-webkit-progress-value {
+	background-color: #02d1a4;
+	}
+
+	progress[value]::-moz-progress-bar {
+	background-color: #02d1a4;
+	}
+	</style>
+	<script async charset="utf-8" id="progress_script_/vendor1_0.2.4078_a48c26b0f14e2dc27d4c.js" src="WhatsApp_files/vendor1_0.js" type="text/javascript">
+	</script>
+	<script async charset="utf-8" id="progress_script_/vendor2_0.2.4078_455216f6f5a8f9f6ab72.js" src="WhatsApp_files/vendor2_0.js" type="text/javascript">
+	</script>
+	<script async charset="utf-8" id="progress_script_/app_0.2.4078_02f3af0f59a6486af0c6.js" src="WhatsApp_files/app_0.js" type="text/javascript">
+	</script>
+	<script async charset="utf-8" id="progress_script_/main_0.2.4078_89eb359eacb4cc810d96.js" src="WhatsApp_files/main_0.js" type="text/javascript">
+	</script>
+	<style id="asset-style" type="text/css">
+	</style>
+	<script async charset="utf-8" src="WhatsApp_files/main_0.js" type="text/javascript">
+	</script>
+</head>
+
+<body>
+	<div id="app" width="100vw">
+		<div class="app-wrapper app-wrapper-web app-wrapper-main" data-reactroot="">
+			<span></span><span></span><span></span><span></span><span></span>
+
+			<div class="app two" tabindex="-1">
+				<!-- react-empty: 56 --><!-- react-empty: 57 --><span></span>
+
+				<div class="drawer-manager">
+					<span class="pane pane-one"></span><span class="pane pane-two"></span><span class="pane pane-three"></span>
+				</div>
+
+
+				<div class="chatlist-panel pane pane-one" id="side">
+					<header class="pane-header pane-list-header">
+						<div class="pane-list-user">
+							<div class="avatar icon-user-default" style="height: 40px; width: 40px; cursor: pointer;">
+								<div class="avatar-body"><img class="avatar-image is-loaded" draggable="false" src="WhatsApp_files/pp_005.jpg">
+								</div>
+							</div>
+						</div>
+
+
+						<div class="pane-list-controls">
+							<div class="menu menu-horizontal">
+								<span></span>
+
+								<div class="menu-item">
+									<span><button class="icon icon-chat" title="New chat"><span></span><span></span></button></span>
+								</div>
+
+
+								<div class="menu-item">
+									<button class="icon icon-menu" title="Menu"></button><span></span>
+								</div>
+							</div>
+						</div>
+					</header>
+
+
+					<div class="butterbar-container">
+						<span></span>
+					</div>
+
+
+					<div class="chatlist-panel-search" tabindex="-1">
+						<div class="pane-subheader pane-list-subheader subheader-search">
+							<button class="icon icon-search-morph">
+							<div class="icon icon-back-blue">
+							</div>
+
+
+							<div class="icon icon-search">
+							</div></button><span></span>
+
+							<div class="input-placeholder">
+								Search or start new chat
+							</div>
+							<label class="cont-input-search" for="input-chatlist-search"><input class="input input-search" data-tab="2" dir="auto" title="Search or start new chat" type="text"></label>
+						</div>
+					</div>
+
+
+					<div class="chatlist-panel-body" data-list-scroll-container="true" id="pane-side">
+						<div data-tab="3" tabindex="-1">
+							<div class="infinite-list chatlist infinite-list-animate">
+								<div class="infinite-list-viewport" style="height: 6408px; pointer-events: auto;">
+
+									<div class="infinite-list-item infinite-list-item-transition" style="z-index: 85; height: 72px; transform: translate3d(0px, 0px, 0px);" id="anan">
+										<div class="chat-drag-cover" tabindex="-1">
+											<div class="chat">
+												<div class="chat-avatar">
+													<div class="avatar icon-user-default">
+														<div class="avatar-body"><img class="avatar-image is-loaded" draggable="false" src="WhatsApp_files/anan.jpg">
+														</div>
+													</div>
+												</div>
+
+
+												<div class="chat-body">
+													<div class="chat-main">
+														<div class="chat-title">
+															<span class="emojitext ellipsify" dir="auto" title="Ankur Srivastava"><!-- react-text: 131 -->Bade Miyan ,Chote Miyan<!-- /react-text --></span>
+														</div>
+
+
+														<div class="chat-meta">
+															<span class="chat-time">Now</span>
+														</div>
+													</div>
+
+
+													<div class="chat-secondary">
+														<div class="chat-status ellipsify" title="‪Ttyl‬">
+															<span class="emojitext ellipsify" dir="ltr"><!-- react-text: 435 -->What's Up ?<!-- /react-text --></span>
+														</div>
+
+
+														<div class="chat-meta">
+															<span></span><span></span><span class="context-container"></span>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+
+									<!-- <div class="infinite-list-item infinite-list-item-transition" style="z-index: 79; height: 72px; transform: translate3d(0px, 648px, 0px);">
+										<div class="chat-drag-cover" tabindex="-1">
+											<div class="chat">
+												<div class="chat-avatar">
+													<div class="avatar icon-group-default">
+														<div class="avatar-body"><img class="avatar-image is-loaded" draggable="false" src="WhatsApp_files/anan.jpg">
+														</div>
+													</div>
+												</div>
+
+
+												<div class="chat-body">
+													<div class="chat-main">
+														<div class="chat-title">
+															<span class="emojitext ellipsify" dir="auto" title="CSE-A Official">
+                              test</span>
+														</div>
+
+
+														<div class="chat-meta">
+															<span class="chat-time">asd</span>
+														</div>
+													</div>
+
+
+													<div class="chat-secondary">
+														<div class="chat-status ellipsify" title="‪Anyone got CN notes‬">
+															<span class="chat-status-name" dir="auto">zxc</span><span class="chat-status-divider">:</span><span class="emojitext ellipsify" dir="ltr">asd</span>
+														</div>
+
+
+														<div class="chat-meta">
+															<span></span><span></span><span class="context-container"></span>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div> -->
+
+
+									<!-- <div class="first infinite-list-item infinite-list-item-transition" style="z-index: 88; height: 72px; transform: translate3d(0px, 0px, 0px);">
+										<div class="chat-drag-cover" tabindex="-1">
+											<div class="chat">
+												<div class="chat-avatar">
+													<div class="avatar icon-user-default">
+														<div class="avatar-body"><img class="avatar-image is-loaded" draggable="false" src="WhatsApp_files/pp_004.jpg">
+														</div>
+													</div>
+												</div>
+
+
+												<div class="chat-body">
+													<div class="chat-main">
+														<div class="chat-title">
+															<span class="emojitext ellipsify" dir="auto" title="Chitranshi Saxena +0 (Yummraj)">Chitranshi Saxena +0 (Yummraj)</span>
+														</div>
+
+
+														<div class="chat-meta">
+															<span class="chat-time">yesterday</span>
+														</div>
+													</div>
+
+
+													<div class="chat-secondary">
+														<div class="chat-status ellipsify" title="‪It's a new dare in WhatsApp..✌✌ Post my pic in your story and write a suitable song for me.. If you don't have my pic then ask me.. Don't spoil this fun.. Send this to all your contacts.. Am waiting for your story.. 😎😎‬">
+															<span class="emojitext ellipsify" dir="ltr">It's a new dare in WhatsApp..<img alt="✌" class="e163 c0 emoji" draggable="false" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"><img alt="✌" class="e163 c0 emoji" draggable="false" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+															 Post my pic in your story and write a suitable song for me.. If you don't have my pic then ask me.. Don't spoil this fun.. Send this to all your contacts.. Am waiting for your story..<img alt="😎" class="e1690 c0 emoji" draggable="false" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"><img alt="😎" class="e1690 c0 emoji" draggable="false" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"></span>
+														</div>
+
+
+														<div class="chat-meta">
+															<span></span><span></span><span class="context-container"></span>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div> -->
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="pane pane-two">
+					<div class="intro pane-body" id="sideBody" style="overflow-x:scroll">
+						<div class="intro-body">
+							<div class="intro-image" style="opacity: 1; transform: scale(1);">
+							</div>
+
+
+							<div class="intro-text-container" style="opacity: 1; transform: translateY(0px);">
+								<h1 class="intro-title">Keep your phone connected</h1>
+
+
+								<div class="intro-text">
+									WhatsApp connects to your phone to sync messages. To reduce data usage, connect your phone to Wi-Fi.
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="WhatsApp_files/progress_2c2cfc3ef54d28e2d4c499805cb3e036.js">
+	</script>
+</body>
+</html>
